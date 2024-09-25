@@ -27,7 +27,7 @@ length = len(password)
 
 score =0 
 
-with open('10k-most-common.txt', 'r') as f:
+with open('common.txt', 'r') as f:
 	common = f.read().splitlines()
 	
 if password in common:
